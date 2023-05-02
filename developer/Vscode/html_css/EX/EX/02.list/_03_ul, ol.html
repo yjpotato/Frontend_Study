@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중첩 목록</title>
+</head>
+<body>
+    <ul>
+
+        <li>프로그래밍 언어
+
+            <ul>
+            <ul style="list-style-type: circle;"> <!--none으로 하면 블릿이 생성x-->
+                <li>자바</li>
+                <ol type="1" start="1">
+                    <!--닫는 li 태그 생략-->
+                    <li>변수</li>
+                    <li>클래스</li>
+                    <li>스트림</li>
+                </ol>
+                <li>HTML</li>
+                <ol type="1" start="1">
+                    <!--닫는 li 태그 생략-->
+                    <li>텍스트</li>
+                    <li>목록</li>
+                </ol>
+        </li>
+    </ul>
+</body>
+</html>
