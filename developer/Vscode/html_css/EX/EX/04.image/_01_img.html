@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지를 표출하는 img</title>
+</head>
+<body>
+    <div>
+        <h1>원본 크기 그대로 표출</h1>
+        <!--width, height 지정 안하면 원본 이미지 크기 그대로 표출-->
+        <!--같은 레벨의 폴더 안에 이미지가 존재할때는 폴더명/파일명 지정-->
+    <img src="../../../오수.png" alt="오수 신호등">
+</div>
+<div>
+    <h3>상위 경로의 이미지 표출</h3>
+    <img src="../../../오수.png" width = "300" height = "150" alt="오수 신호등">
+</div>
+<div><h3>같은 레벨의 폴더안에 있는 이미지 표출</h3>
+    <img src="../../../오수.png" width = "300" height = "150"  alt="오수 신호등">
+</div>
+<div>
+    <h3>웹 이미지 url로 이미지 표출</h3>
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMThfMjE3%2FMDAxNjY4NzgzMzY3NzUw.aNJr6iAgz77qWfPZtlHO3VbLaLOh0x80d_IiOsVlt6cg.rSUKLkOyF1qx0L6-hefWey4PvcAONUAgiEsrw_JXv2kg.JPEG.seohaein12%2FIMG_6543.jpg&type=sc960_832"
+      alt="포뇨">
+</div>
+
+
+</body>
+</html>
